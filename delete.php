@@ -12,6 +12,6 @@
         return;
     }
 
-    $conn->prepare("DELETE FROM contacts WHERE id = :id")->bindParam(":id", $id)->execute();
+    $conn->prepare("DELETE FROM contacts WHERE id = :id")->execute([":id" => $id]);
 
     header("Location: index.php");
