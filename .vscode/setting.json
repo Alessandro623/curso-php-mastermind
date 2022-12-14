@@ -1,12 +1,12 @@
 {
     "[php]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 4
     },
     "[html]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 4
     },
     "[javascript]": {
-        "editor.tabSize": 2
+        "editor.tabSize": 4
     },
     "file.insertFinalNewLine": true
 }
